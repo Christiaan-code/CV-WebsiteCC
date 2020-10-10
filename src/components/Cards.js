@@ -12,13 +12,13 @@ function Cards() {
                         <CardItem 
                         src="images/img-1.jpg" 
                         text="A short summary of my education and degrees"
-                        path="/services"
+                        path="/education"
                         label="Education"
                         />
                         <CardItem 
                         src="images/img-2.png" 
                         text="What skills do I bring to the table and what awards have I won"
-                        path="/services"
+                        path="/skills"
                         label="Skills and Awards"
                         />
                     </ul>
@@ -26,19 +26,19 @@ function Cards() {
                         <CardItem 
                         src="images/img-3.jpg" 
                         text="A list of all previous employments and internships"
-                        path="/services"
+                        path="/work"
                         label="Work Experience"
                         />
                         <CardItem 
                         src="images/img-4.jpg" 
-                        text="What extracurricular activities am I persuing"
-                        path="/services"
-                        label="Sport, Culture and Leadership"
+                        text="My participation in various sports and committees"
+                        path="/sports"
+                        label="Sport and Committees"
                         />
                         <CardItem 
                         src="images/img-5.jpg" 
                         text="A full list of my references and their contact details"
-                        path="/services"
+                        path="/references"
                         label="References"
                         />
                     </ul>

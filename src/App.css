@@ -6,18 +6,21 @@
 }
 
 .home,
-.services,
-.products,
-.sign-up {
+.skills,
+.education,
+.work,.sports,
+.contact,
+.references
+{
   display: flex;
-  height: 90vh;
+  height: 30vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
-.services {
-  background-image: url('/images/img-2.jpg');
+.skills {
+  background-image: url('/images/img-2.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,7 +28,7 @@
   font-size: 100px;
 }
 
-.products {
+.education {
   background-image: url('/images/img-1.jpg');
   background-position: center;
   background-size: fill;
@@ -34,11 +37,28 @@
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('/images/img-8.jpg');
+.sports {
+  background-image: url('/images/img-4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
+
+.references {
+  background-image: url('/images/img-5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.work {
+  background-image: url('/images/img-3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} 

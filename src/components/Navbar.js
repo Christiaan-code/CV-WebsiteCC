@@ -35,27 +35,17 @@ function Navbar() {
             </div>
             <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
                 <li className = 'nav-item'>
-                    <Link to='/Home' className ='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/home' className ='nav-links' onClick={closeMobileMenu}>
                         Home
                     </Link>
                 </li>
                 <li className = 'nav-item'>
-                    <Link to='/services' className ='nav-links' onClick={closeMobileMenu}>
-                        Services
-                    </Link>
-                </li>
-                <li className = 'nav-item'>
-                    <Link to='/products' className ='nav-links' onClick={closeMobileMenu}>
-                        products
-                    </Link>
-                </li>
-                <li className = 'nav-item'>
-                    <Link to='/sign-up' className ='nav-links-mobile' onClick={closeMobileMenu}>
-                        Sign Up
+                    <Link to='/contact' className ='nav-links-mobile' onClick={closeMobileMenu}>
+                        Contact me
                     </Link>
                 </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+            {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
         </div>
     </nav>
     );
