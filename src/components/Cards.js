@@ -5,18 +5,18 @@ import './Cards.css';
 function Cards() {
     return (
         <div className="cards">
-            <h1>Click on a card to show more display the details of that category</h1>
+            <h1>Choose a card to show more details of that category</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/img-1.jpg" 
+                        src="images/img-1.jpeg" 
                         text="A short summary of my education and degrees"
                         path="/education"
                         label="Education"
                         />
                         <CardItem 
-                        src="images/img-2.png" 
+                        src="images/img-2.jpg" 
                         text="What skills do I bring to the table and what awards have I won"
                         path="/skills"
                         label="Skills and Awards"

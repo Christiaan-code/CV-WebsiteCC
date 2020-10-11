@@ -8,6 +8,7 @@ import Skills from './components/pages/Skills';
 import Education from './components/pages/Education';
 import Sports from './components/pages/Sports';
 import References from './components/pages/References';
+import Contact from './components/pages/Contact';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-          <switch>
+          <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/home' exact component={Home}/>
             <Route path='/work' exact component={Work}/>
@@ -23,7 +24,8 @@ function App() {
             <Route path='/education' exact component={Education}/>
             <Route path='/sports' exact component={Sports}/>
             <Route path='/references' exact component={References}/>
-          </switch>
+            <Route path='/contact' exact component={Contact}/>
+          </Switch>
         </Router>
     </>
   );
