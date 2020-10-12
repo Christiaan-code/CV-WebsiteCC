@@ -34,6 +34,10 @@
   font-size: 1.8rem;
 }
 
+.weather-temp {
+  width: 50%;
+}
+
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(6, auto);

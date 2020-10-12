@@ -1,17 +1,20 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import Forecast from './Forecast/Forecast';
 
 function Footer() {
     return (
         <div className ="footer-container">
             <section className="social-media">
                 <div className="social-media-wrap">
-                    <div className="footer-logo">
-                        <Link to="/" className="social-logo">
+                    {/* <div className="social-logo"> */}
+                        <Forecast/>
+                        
+                        {/* <Link to="/" className="social-logo">
                         <i className="fab fa-artstation"></i><pre> Chris du Preez</pre>
-                        </Link>
-                    </div>
+                        </Link> */}
+                    {/* </div> */}
                     <small className="website-rights">
                         Cosmo Designs 2020
                     </small>

@@ -40,11 +40,11 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className = 'nav-item'>
-                    <Link to='/skills' className ='nav-links' onClick={closeMobileMenu}>
-                        Skills
+                    <Link to='/extra' className ='nav-links' onClick={closeMobileMenu}>
+                        Extras
                     </Link>
                 </li>
-                <li className = 'nav-item'>
+                {/* <li className = 'nav-item'>
                     <Link to='/education' className ='nav-links' onClick={closeMobileMenu}>
                         Education
                     </Link>
@@ -58,7 +58,7 @@ function Navbar() {
                     <Link to='/sports' className ='nav-links' onClick={closeMobileMenu}>
                         Sports
                     </Link>
-                </li>
+                </li> */}
                 <li className = 'nav-item'>
                     <Link to='/contact' className ='nav-links-mobile' onClick={closeMobileMenu}>
                         Contact me

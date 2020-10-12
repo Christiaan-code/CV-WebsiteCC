@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.js'
 import CardItem from '../CardItem.js'
+import Footer from '../Footer.js'
 
 export default function Education() {
     return (
@@ -26,7 +27,7 @@ export default function Education() {
                 />
                 </ul>
             </div>
-        </div> 
+        </div>
         </>
     )
 }

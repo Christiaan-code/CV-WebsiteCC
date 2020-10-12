@@ -10,6 +10,7 @@
 .education,
 .work,.sports,
 .contact,
+.extra,
 .references
 {
   display: flex;
@@ -32,6 +33,15 @@
   background-image: url('/images/img-1.jpeg');
   background-position: center;
   background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.extra {
+  background-image: url('/images/extra.jpg');
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
