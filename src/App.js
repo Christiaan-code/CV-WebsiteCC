@@ -10,7 +10,6 @@ import Sports from './components/pages/Sports';
 import References from './components/pages/References';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
-import Extra from './components/pages/Extra';
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
             <Route path='/sports' exact component={Sports}/>
             <Route path='/references' exact component={References}/>
             <Route path='/contact' exact component={Contact}/>
-            <Route path='/extra' exact component={Extra}/>
           </Switch>
           <Footer />
         </Router>

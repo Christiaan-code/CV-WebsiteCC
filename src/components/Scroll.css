@@ -39,7 +39,6 @@ html,body {
       height: 8px;
       border-top: 2px solid #cccccc;
       border-right: 2px solid #cccccc;
-      /* behavior: url("-ms-transform.htc"); */
       -moz-transform: rotate(135deg);
       -webkit-transform: rotate(135deg);
       -o-transform: rotate(135deg);
@@ -57,16 +56,12 @@ html,body {
   }
   #scroll-down::before {
       -webkit-animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
-      /* Safari 4+ */
       
       -moz-animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
-      /* Fx 5+ */
       
       -o-animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
-      /* Opera 12+ */
       
       animation: elasticus 1.2s cubic-bezier(1, 0, 0, 1) infinite;
-      /* IE 10+, Fx 29+ */
       
       position: absolute;
       top: 0px;

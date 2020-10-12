@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.js'
 import CardItemBlank from '../CardItemBlank.js'
+import '../../App.css'
 
 export default function References() {
     return (
@@ -9,7 +10,6 @@ export default function References() {
         
         <div className="cards__container">
                 <div className="cards__wrapper">
-                    {/* <ul className="cards__items"> */}
                     
                     <CardItemBlank 
                     text="Mrs L Hattingh: (Transvalia High School) 072 810 1492"
@@ -22,8 +22,6 @@ export default function References() {
                     <CardItemBlank 
                     text="Mrs G Schutte (Metsimaholo Public Library): 016 973 8464"
                     />
-                    {/* </ul> */}
-                    {/* <ul className="cards__items"> */}
                     
                     <CardItemBlank 
                     text="Mr F de Beer (AdamJee Life, Pakistan): 079 399 3208"
@@ -36,7 +34,7 @@ export default function References() {
                     <CardItemBlank 
                     text="Mr A Oosthuizen (Tecmo Automation): 082 416 9212"
                     />
-                    {/* </ul> */}
+                    
                 </div>
             </div> 
             </>

@@ -156,7 +156,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     }
 
     .contact-input {
-        width: 200%;
+        width: 95%;
+    }
+    .contact-input-message {
+        width: 95%;
     }
 
     .btn {

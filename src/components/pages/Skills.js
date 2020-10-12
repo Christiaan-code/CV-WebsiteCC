@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.js'
 import CardItem from '../CardItem.js'
+import GithubAPI from '../Github/GithubAPI.js'
 
 export default function Skills() {
     return (
@@ -21,6 +22,10 @@ export default function Skills() {
                 label="NWU GeeXpo"
                 />
                 </ul>
+
+                <h1 className="repos">My Github repo's</h1>
+
+                <GithubAPI/>
             </div>
         </div> 
         </>

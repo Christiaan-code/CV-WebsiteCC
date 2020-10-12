@@ -7,13 +7,7 @@ function Footer() {
         <div className ="footer-container">
             <section className="social-media">
                 <div className="social-media-wrap">
-                    {/* <div className="social-logo"> */}
-                        <Forecast/>
-                        
-                        {/* <Link to="/" className="social-logo">
-                        <i className="fab fa-artstation"></i><pre> Chris du Preez</pre>
-                        </Link> */}
-                    {/* </div> */}
+                    <Forecast/>
                     <small className="website-rights">
                         Cosmo Designs 2020
                     </small>

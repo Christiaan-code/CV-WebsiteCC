@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.js';
-import { Button } from '../Button.js';
 import './Contact.css';
 import emailjs from 'emailjs-com'
 
