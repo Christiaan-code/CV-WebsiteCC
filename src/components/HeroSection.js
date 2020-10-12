@@ -2,7 +2,6 @@ import React from 'react';
 import '../App.css';
 import './HeroSection.css';
 import "./Scroll.css"
-import Forecast from './Forecast/Forecast'
 
 function HeroSection() {
     return (

@@ -171,3 +171,22 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
         flex-direction: column;
     }
 }
+
+#submit {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+
+    padding: 12px 26px;
+    font-size: 1em;
+}
+#submit:hover {
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}

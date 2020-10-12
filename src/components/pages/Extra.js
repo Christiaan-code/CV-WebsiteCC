@@ -1,7 +1,8 @@
 import React from 'react'
 import '../../App.js'
-import CardItem from '../CardItem.js'
+import AboutMeCodewarsAPI from '../aboutMe-codewarsAPI.js'
 import Dogs from '../Dogs/Dogs.js'
+import Test from '../Test.js'
 
 export default function Skills() {
     // var imgurl = <Dogs/>
@@ -10,7 +11,7 @@ export default function Skills() {
         <h1 className='extra'>Extras</h1>
         <div className="cards__container">
             <div className="cards__wrapper">
-                <Dogs />
+                <Test/>
                 
                 
                 {/* <ul className="cards__items">
