@@ -12,17 +12,17 @@ export default function References() {
                 <div className="cards__wrapper">
                     
                     <CardItemBlank 
+                    text="Mr D Ackerman: (Freshlinq) 082 777 6133"
+                    />
+                    
+                    <CardItemBlank 
                     text="Mrs L Hattingh: (Transvalia High School) 072 810 1492"
                     />
 
                     <CardItemBlank 
                     text="Mr G Hocknell (Vaal Triangle Squash Association chairman): graham.hocknell@gmail.com"
                     />
-                    
-                    <CardItemBlank 
-                    text="Mrs G Schutte (Metsimaholo Public Library): 016 973 8464"
-                    />
-                    
+                                        
                     <CardItemBlank 
                     text="Mr F de Beer (AdamJee Life, Pakistan): 079 399 3208"
                     />
@@ -30,11 +30,7 @@ export default function References() {
                     <CardItemBlank 
                     text="Mr M van Wyk (Ratau Lebone Men’s Residence Primarius): 071 355 9295"
                     />
-                    
-                    <CardItemBlank 
-                    text="Mr A Oosthuizen (Tecmo Automation): 082 416 9212"
-                    />
-                    
+                                        
                 </div>
             </div> 
             </>

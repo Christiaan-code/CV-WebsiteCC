@@ -9,7 +9,7 @@ function Footer() {
                 <div className="social-media-wrap">
                     <Forecast/>
                     <small className="website-rights">
-                        Cosmo Designs 2020
+                        Cosmo Designs 2022
                     </small>
                     <div className="social-icons">
                         <a href="https://www.facebook.com/christiaan.dupreez.334" 

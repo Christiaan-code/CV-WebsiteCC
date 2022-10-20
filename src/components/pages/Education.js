@@ -19,10 +19,10 @@ export default function Education() {
                 />
                 <CardItem 
                 src="images/nwu.png"
-                text="Since 2018 I have been studying towards my BSc IT degreen at the North-West University on the Potchefstroom campus. 
+                text="From 2018 to 2020 I studied towards my bachelors degree in Computer Science and Information Technology at the North-West University.
                 I have been part of the Golden Key since my first year, and have never failed a module. 
-                Currently I am in my third year and plan on finishing my degree and then starting my honors degree in 2021."
-                label="2018-Current"
+                After I finished my degree I also got my honors degree in Computer Science and Information Technology, which I started and finished in 2021"
+                label="2018-2021"
                 />
                 </ul>
             </div>

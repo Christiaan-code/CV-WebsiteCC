@@ -12,8 +12,8 @@ export default function Sports() {
                     
                     <CardItem 
                     src="images/sports.jpg"
-                    text="I was part of the First Hockey team and the First Squash team, both for two years. I now play basketball for the NWU Pukke's first team, and also participate in 
-                    numerous other sports and activities for my university hostel."
+                    text="I played basketball for the NWU Pukke's first team, was part of the PUK squash team, and also participated in 
+                    numerous other sports and activities for my university hostel. I still play action netball, squash, frisbee and soccer socially."
                     label="Sports"
                     />
 

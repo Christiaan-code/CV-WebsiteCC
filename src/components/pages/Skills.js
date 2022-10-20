@@ -12,7 +12,7 @@ export default function Skills() {
                 <ul className="cards__items">
                 <CardItem 
                 src="images/tech.jpg"
-                text="I am proficient in java, c#, javascript, css, sql and object pascal"
+                text="I am proficient in c#, javascript, sql, typescript, angular and entity framework"
                 label="Technical skills"
                 />
                 
